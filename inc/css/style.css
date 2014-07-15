@@ -1,0 +1,58 @@
+.generate-metabox label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.generate-metabox textarea {
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	min-height: 200px;
+}
+
+.js .generate-metabox.postbox .hndle {
+	cursor: inherit;
+}
+
+.generate-metabox .clear {
+	padding-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #DDD;
+}
+
+.generate-metabox .clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.inactive {
+	background: #444;
+    border-radius: 3px;
+    color: #FFFFFF;
+    padding: 2px 5px;
+	font-size:12px;
+	display: inline-block;
+	margin-left:5px;
+}
+
+.active {
+	background: green;
+    border-radius: 3px;
+    color: #FFFFFF;
+    padding: 2px 5px;
+	font-size:12px;
+	display: inline-block;
+	margin-left:5px;
+}
+
+.addon-container {
+	margin-bottom:5px;
+}
+
+.addon-title {
+	display: inline-block;
+	width: 140px;
+}
