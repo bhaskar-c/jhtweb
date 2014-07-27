@@ -40,7 +40,7 @@ if(isset($_POST['submitted'])) {
 		}
 		
 		if(trim($_POST['sum']) === '' || trim($_POST['sum']) != '11' ){
-			$sumError = "Please enter what's 7 + 4";
+			$sumError = "Please enter correct captcha answer for 7 + 4";
 			$hasError = true;
 		}
 			
